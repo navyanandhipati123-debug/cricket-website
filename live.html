@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Match</title>
+    <link rel="icon" type="image/x-icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="live.css">
+</head>
+<body>
+    <div class="scoreboard">
+        <h2 id="overallScore">Loading...</h2>
+        <h4 id="runrate" style="text-align: center;"></h5>
+        <h3>Batter Table</h3>
+        
+        <table id="batterTable" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Runs</th>
+                    <th>Balls</th>
+                    <th>4s</th>
+                    <th>6s</th>
+                    <th>SR</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h3>Bowling Section</h3>
+        <table id="bowlerTable" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Overs</th>
+                    <th>Maidens</th>
+                    <th>Runs</th>
+                    <th>Wickets</th>
+                    <th>Economy</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div class="buttons">
+            <button onclick="recordRun(0)">0 Run</button>
+            <button onclick="recordRun(1)">1 Run</button>
+            <button onclick="recordRun(2)">2 Runs</button>
+            <button onclick="recordRun(3)">3 Runs</button>
+            <button onclick="recordRun(4)">4 Runs</button>
+            <button onclick="recordRun(6)">6 Runs</button>
+            <button onclick="handleWicket()">Wicket</button>
+        </div>
+    </div>
+<div style="text-align: center;">
+    <button onclick="location.href='scorecard.html'" style="align-items:center;border-radius: 10px;font-size: 16px; margin: 5px;padding: 7px 17px;">View Scorecard</button>
+   
+</div>
+    <script src="score.js"></script>
+</body>
+</html>

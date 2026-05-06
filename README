@@ -1,0 +1,14 @@
+project description:
+a live website for cricket score 
+we have 4 pages:
+1. setup page:
+setup.html , setup.css , setup.js
+2. live page:
+live.html , live.css , live.js
+3. score page:
+score.html , score.css , score.js
+4. summary page:
+summary.html , summary.css , summary.js
+
+To run the project:
+open setup.html in browser(chrome).

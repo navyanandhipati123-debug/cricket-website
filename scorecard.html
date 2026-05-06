@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Scorecard</title>
+    <link rel="icon" type="image/x-icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="scorecard.css">
+</head>
+<body>
+    <button onclick="location.href='live.html'"style="border: none; background: none; cursor: pointer;">
+        <img src="pictures/live.png" alt="Live" style="width: 50px; height: 50px; position: absolute; top: 10px; left: 30px;">
+    </button>
+
+    <div class="scorecard">
+    <h2>Batting Scorecard</h2>
+    <table id="battingCard">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Runs</th>
+                <th>Balls</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>Strike Rate</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Bowling Scorecard</h2>
+    <table id="bowlingCard">
+        <thead>
+            <tr>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Overs</th>
+                <th>Maidens</th>
+                <th>Runs</th>
+                <th>Wickets</th>
+                <th>Economy</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+    <script src="score.js"></script>
+</body>
+</html>

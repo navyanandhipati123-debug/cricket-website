@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setup Match</title>
+    <link rel="icon" type="image/x-icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="setup.css">
+</head>
+<body>
+    <div class="setup-container">
+        <h1>Match Setup</h1>
+        <form id="setupForm">
+            <input type="text" id="team1" placeholder="Enter Team 1 Name" required><br>
+            <input type="text" id="team2" placeholder="Enter Team 2 Name" required><br>
+
+            <label for="tossWinner">Toss Winner:</label>
+            <select id="tossWinner">
+                <option value="Team 1">Team 1</option>
+                <option value="Team 2">Team 2</option>
+            </select><br>
+
+            <label for="tossDecision">Toss Decision:</label>
+            <select id="tossDecision">
+                <option value="Bat">Bat</option>
+                <option value="Bowl">Bowl</option>
+            </select><br>
+
+            <button type="submit" style="border-radius: 7px;background-color: rgb(237, 235, 241);">Start Match</button>
+        </form>
+    </div>
+    <script src="score.js"></script>
+</body>
+</html>
+
